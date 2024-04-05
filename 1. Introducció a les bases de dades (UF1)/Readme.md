@@ -1,6 +1,6 @@
 # UF 1
 
-![Alt Text] (https://github.com/mahisumit/DAW-Base-de-dades/blob/main/1.%20Introducci%C3%B3%20a%20les%20bases%20de%20dades%20(UF1)/assests/dia.png)
+![Alt Text](image_url)
 
 ## Introducció
 
