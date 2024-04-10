@@ -23,6 +23,6 @@
 
 ***
 ## Activitats
-  1. Activitat Ap1 - Diagrama ER
+  1. Activitat Ap1 - Diagrama ER (<https://github.com/mahisumit/DAW-Base-de-dades/tree/main/1.%20Introducci%C3%B3%20a%20les%20bases%20de%20dades%20(UF1)/Activitat%20Ap1%20-%20Diagrames%20ER>)
   2. Activitat Ap2 - Disseny lògic (Workbench)
   3. MySql Workbench Exercicis
