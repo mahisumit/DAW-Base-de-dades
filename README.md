@@ -8,5 +8,5 @@
 ***
 
 ## 1. Introducció a les base de dades (UF1)
-  Què és una base de dades?
-  * Una base de dades és un sistema que permet organitzar, emmagatzemar i recuperar dades de manera eficient. És com una col·lecció de taules amb files i columnes, on cada taula representa una categoria específica d’informació en un projecte.
+  Què és una base de dades? <br>
+  Una base de dades és un sistema que permet organitzar, emmagatzemar i recuperar dades de manera eficient. És com una col·lecció de taules amb files i columnes, on cada taula representa una categoria específica d’informació en un projecte.
