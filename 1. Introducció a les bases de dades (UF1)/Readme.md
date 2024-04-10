@@ -8,7 +8,7 @@
 
 ***
 
-   __MySQL Workbench__és una eina visual que t’ajuda a dissenyar, crear i gestionar bases de dades relacionals a MySQL, un popular sistema de gestió de bases de dades relacionals (RDBMS).           Pots utilitzar el MySQL Workbench per a:
+   __MySQL Workbench__ és una eina visual que t’ajuda a dissenyar, crear i gestionar bases de dades relacionals a MySQL, un popular sistema de gestió de bases de dades relacionals (RDBMS).           Pots utilitzar el MySQL Workbench per a:
 
     1. Dissenyar l’estructura de la teva base de dades: Pots crear visualment taules, definir columnes (camps de dades) i establir tipus de dades (text, números, dates, etc.).
     2. Crear i gestionar la teva base de dades: Un cop tinguis un disseny, pots utilitzar el MySQL Workbench per a crear la base de dades i les taules a MySQL.
