@@ -19,6 +19,8 @@
 ***
   __Dia__ és un programa de codi obert que permet dibuixar diagrames d’estructura. Aquesta eina és especialment útil per crear diagrames d’entitat-relació (ERD), que són representacions visuals de l’estructura d’una base de dades. En un ERD, es mostren les taules, les seves columnes i les relacions entre elles.
 
+<img src="https://github.com/mahisumit/DAW-Base-de-dades/blob/main/1.%20Introducci%C3%B3%20a%20les%20bases%20de%20dades%20(UF1)/assests/dia.png" alt="Alt Text 1"  style="width: 50%;" >
+
 ***
 ## Activitats
   1. Activitat Ap1 - Diagrama ER
