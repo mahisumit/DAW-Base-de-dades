@@ -8,9 +8,9 @@
 
   <u> MySQL Workbench </u>és una eina visual que t’ajuda a dissenyar, crear i gestionar bases de dades relacionals a MySQL, un popular sistema de gestió de bases de dades relacionals (RDBMS).       Pots utilitzar el MySQL Workbench per a:
 
-    * Dissenyar l’estructura de la teva base de dades: Pots crear visualment taules, definir columnes (camps de dades) i establir tipus de dades (text, números, dates, etc.).
-    * Crear i gestionar la teva base de dades: Un cop tinguis un disseny, pots utilitzar el MySQL Workbench per a crear la base de dades i les taules a MySQL.
-    * Consultar les teves dades: El MySQL Workbench et permet escriure i executar consultes per recuperar i manipular les dades emmagatzemades a la teva base de dades.
+  * Dissenyar l’estructura de la teva base de dades: Pots crear visualment taules, definir columnes (camps de dades) i establir tipus de dades (text, números, dates, etc.).
+  * Crear i gestionar la teva base de dades: Un cop tinguis un disseny, pots utilitzar el MySQL Workbench per a crear la base de dades i les taules a MySQL.
+  * Consultar les teves dades: El MySQL Workbench et permet escriure i executar consultes per recuperar i manipular les dades emmagatzemades a la teva base de dades.
 
 ***
 
