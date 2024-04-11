@@ -3,17 +3,7 @@
 **Exercici 1**
 
 ```mysql
-DELIMITER //
-DROP FUNCTION IF EXISTS sp_Data //
-CREATE FUNCTION sp_Data(p_dataOrigen DATE) RETURNS VARCHAR(10) DETERMINISTIC
-BEGIN
-    DECLARE v_dataFinal VARCHAR(10);
-    
-    SET v_dataFinal = DATE_FORMAT(p_dataOrigen, '%d-%m-%Y');
-    
-    RETURN v_dataFinal;
-END //
-DELIMITER ;
+
 ```
 
 **Exercici 2**
