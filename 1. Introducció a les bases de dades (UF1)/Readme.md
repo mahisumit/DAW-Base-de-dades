@@ -4,7 +4,7 @@
 
 ## Introducció
 
-  En aquesta UF vaig treballar amb Dia i MySql Workbench.
+  En aquesta UF vaig treballar amb MySql Workbench i Dia.
 
 ***
 
