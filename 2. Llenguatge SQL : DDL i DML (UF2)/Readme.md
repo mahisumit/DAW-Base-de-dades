@@ -4,6 +4,6 @@
 
 ## Introducció
 
-  En aquesta UF vaig treballar amb MySQL (DDL,DML,DCL).
+  En aquesta UF vaig treballar amb Llenguatge SQL (DDL i DML).
 
 ***
