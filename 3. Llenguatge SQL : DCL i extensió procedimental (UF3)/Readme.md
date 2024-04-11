@@ -4,6 +4,6 @@
 
 ## Introducció
 
-  En aquesta UF vaig treballar amb MySQL
+  En aquesta UF vaig treballar amb Llenguatge SQL (DCL).
 
 ***
