@@ -1,6 +1,6 @@
-## Activitat Subprogrames
+# Activitat Subprogrames
 
-# Enunciat de Funcions 
+## Enunciat de Funcions 
 
 **Exercici 1**
 
@@ -62,7 +62,7 @@
 
 ***
 
-# Enunciat de Procediments
+## Enunciat de Procediments
 
 **Exercici 1**
 
