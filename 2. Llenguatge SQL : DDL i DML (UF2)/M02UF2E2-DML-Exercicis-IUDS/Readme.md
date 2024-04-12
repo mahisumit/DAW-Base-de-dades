@@ -5,7 +5,8 @@
 **Exercici 1**
 
 ```mysql
-
+INSERT INTO empleats (empleat_id, nom, cognoms, email, data_contractacio, feina_codi, salari)
+VALUES ('208', 'Pere', 'Pi', 'perepi@empresa.cat', '1995-08-18', 'IT_PROG','7000');
 ```
 
 **Exercici 2**
