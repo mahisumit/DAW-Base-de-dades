@@ -35,7 +35,7 @@ VALUES 	('212', '1992-01-15', '1993-10-20', 'IT_PROG', '60'),
 ```mysql
 INSERT INTO paisos (pais_id, nom, regio_id)
 VALUES	('ES', 'Espanya','1'),
-		('FR', 'França', '1'),
+	('FR', 'França', '1'),
         ('AU', 'Austràlia', '1'),
         ('JP', 'Japó', '2'),
         ('KR', 'Corea del Sud', '2');
