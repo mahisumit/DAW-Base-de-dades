@@ -10,8 +10,8 @@ INSERT INTO empleats (empleat_id, nom, cognoms, email, data_contractacio, feina_
 VALUES ('208', 'Pere', 'Pi', 'perepi@empresa.cat', '1995-08-18', 'IT_PROG','7000');
 ```
 
-**Exercici 2 - DML (INSERT, UPDATE, DELETE)**:
-Afegeix amb una sola sentència DML 3 empleades (Sandra González, Marta
+**Exercici 2 - DML (INSERT, UPDATE, DELETE)**
+Exercici 2 - Afegeix amb una sola sentència DML 3 empleades (Sandra González, Marta
 Pérez i Maria Cantó) que treballen com a contables amb el mateix salari de 6.000€ .
 
 ```mysql
@@ -21,8 +21,8 @@ VALUES 	('209', 'Sandra', 'González', 'sgonzález@empresa.cat', '1995-08-19', '
         ('2011', 'Maria', 'Cantó', 'mcanto@empresa.cat', '1995-08-21', 'AC_ACCOUNT','6000');
 ```
 
-**Exercici 3 - DML (INSERT, UPDATE, DELETE)**:
-Afegeix a la BD un empleat anomenat Pau Serra amb el següent historial
+**Exercici 3 - DML (INSERT, UPDATE, DELETE)**
+Exercici 3 - Afegeix a la BD un empleat anomenat Pau Serra amb el següent historial
 laboral:
 - 15 de Gener del 1992 al 20 d'Octubre del 1993 va fer de programador en el
 departament d'informàtica (IT).
