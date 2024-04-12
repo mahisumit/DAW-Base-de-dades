@@ -10,7 +10,7 @@ INSERT INTO empleats (empleat_id, nom, cognoms, email, data_contractacio, feina_
 VALUES ('208', 'Pere', 'Pi', 'perepi@empresa.cat', '1995-08-18', 'IT_PROG','7000');
 ```
 
-**Exercici 2**:
+**Exercici 2 - DML (INSERT, UPDATE, DELETE)**:
 Afegeix amb una sola sentència DML 3 empleades (Sandra González, Marta
 Pérez i Maria Cantó) que treballen com a contables amb el mateix salari de 6.000€ .
 
@@ -21,7 +21,7 @@ VALUES 	('209', 'Sandra', 'González', 'sgonzález@empresa.cat', '1995-08-19', '
         ('2011', 'Maria', 'Cantó', 'mcanto@empresa.cat', '1995-08-21', 'AC_ACCOUNT','6000');
 ```
 
-**Exercici 3**:
+**Exercici 3 - DML (INSERT, UPDATE, DELETE)**:
 Afegeix a la BD un empleat anomenat Pau Serra amb el següent historial
 laboral:
 - 15 de Gener del 1992 al 20 d'Octubre del 1993 va fer de programador en el
@@ -41,7 +41,7 @@ VALUES 	('212', '1992-01-15', '1993-10-20', 'IT_PROG', '60'),
 	('212', '1994-10-21', '1994-12-31', 'MK_MAN', '20');
 ```
 
-**Exercici 4**
+**Exercici 4 - DML (INSERT, UPDATE, DELETE)**
 
 ```mysql
 INSERT INTO paisos (pais_id, nom, regio_id)
@@ -52,7 +52,7 @@ VALUES	('ES', 'Espanya','1'),
         ('KR', 'Corea del Sud', '2');
 ```
 
-**Exercici 5**
+**Exercici 5 - DML (INSERT, UPDATE, DELETE)**
 
 ```mysql
 UPDATE localitzacions
@@ -60,7 +60,7 @@ SET adreca = 'Sa Palomera'
 WHERE adreca = '460 Bloor St. W.' AND ciutat = 'Toronto';
 ```
 
-**Exercici 6**
+**Exercici 6 - DML (INSERT, UPDATE, DELETE)**
 
 ```mysql
 UPDATE empleats
@@ -78,7 +78,7 @@ WHERE feina_codi = "TMP";
 DELETE FROM feines WHERE feina_codi = "TMP";
 ```
 
-**Exercici 7**
+**Exercici 7 - DML (INSERT, UPDATE, DELETE)**
 
 ```mysql
 DELETE FROM historial_feines
@@ -91,13 +91,13 @@ DELETE FROM historial_feines
 
 ## DML (CONSULTES)
 
-**Exercici 8**
+**Exercici 8 - DML (CONSULTES)**
 
 ```mysql
 DESCRIBE empleats;
 ```
 
-**Exercici 9**
+**Exercici 9 - DML (CONSULTES)**
 
 ```mysql
 SELECT	nom,
@@ -106,13 +106,13 @@ SELECT	nom,
 	FROM empleats
     LIMIT 4;
 ```
-**Exercici 10**
+**Exercici 10  - DML (CONSULTES)**
 
 ```mysql
 SELECT * FROM feines;
 ```
 
-**Exercici 11**
+**Exercici 11 - DML (CONSULTES)**
 
 ```mysql
 
@@ -123,18 +123,18 @@ SELECT * FROM feines;
 
 ```
 
-**Exercici 13**
+**Exercici 13 - DML (CONSULTES)**
 
 ```mysql
 
 ```
-**Exercici 14**
+**Exercici 14 - DML (CONSULTES)**
 
 ```mysql
 
 ```
 
-**Exercici 15**
+**Exercici 15 - DML (CONSULTES)**
 
 ```mysql
 
