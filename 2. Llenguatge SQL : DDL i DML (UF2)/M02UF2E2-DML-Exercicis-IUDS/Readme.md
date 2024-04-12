@@ -14,7 +14,7 @@ VALUES ('208', 'Pere', 'Pi', 'perepi@empresa.cat', '1995-08-18', 'IT_PROG','7000
 ```mysql
 INSERT INTO empleats (empleat_id, nom, cognoms, email, data_contractacio, feina_codi, salari)
 VALUES 	('209', 'Sandra', 'González', 'sgonzález@empresa.cat', '1995-08-19', 'AC_ACCOUNT','6000'),
-		    ('210', 'Marta', 'Pérez', 'mperez@empresa.cat', '1995-08-20', 'AC_ACCOUNT','6000'),
+	('210', 'Marta', 'Pérez', 'mperez@empresa.cat', '1995-08-20', 'AC_ACCOUNT','6000'),
         ('2011', 'Maria', 'Cantó', 'mcanto@empresa.cat', '1995-08-21', 'AC_ACCOUNT','6000');
 ```
 
@@ -26,8 +26,8 @@ VALUES 	('212', 'Pau', 'Serra', 'pserra@empresa.cat', '1995-08-20', 'IT_PROG', '
 
 INSERT INTO historial_feines (empleat_id, data_inici, data_fi, feina_codi, departament_id)
 VALUES 	('212', '1992-01-15', '1993-10-20', 'IT_PROG', '60'),
-		    ('212', '1993-10-21', '1994-10-21', 'SA_MAN', '90'),
-		    ('212', '1994-10-21', '1994-12-31', 'MK_MAN', '20');
+	('212', '1993-10-21', '1994-10-21', 'SA_MAN', '90'),
+	('212', '1994-10-21', '1994-12-31', 'MK_MAN', '20');
 ```
 
 **Exercici 4**
