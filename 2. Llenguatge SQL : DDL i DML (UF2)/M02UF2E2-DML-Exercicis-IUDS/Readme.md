@@ -2,7 +2,7 @@
 
 ## DML (INSERT, UPDATE, DELETE)
 
-### **Exercici 1 - DML**
+### **Exercici 1 - DML (INSERT, UPDATE, DELETE)**
 Exercici 1 - Afegeix a la BD un empleat anomenat Pere Pi que treballa com a
 programador amb un salari 7.000€.
 ```mysql
