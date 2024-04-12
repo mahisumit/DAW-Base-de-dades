@@ -131,27 +131,58 @@ SELECT * FROM feines;
 Exercici 11 - Obtenir els diferents codis de departaments dels empleats, sense duplicats.
 
 ```mysql
-
+SELECT DISTINCT departament_id
+FROM empleats
+WHERE departament_id IS NOT NULL;
 ```
 ### **Exercici 12 - DML (CONSULTES)**
+Exercici 12 - Volem saber de tots els empleats, el codi d’empleat (pk), els cognoms i
+nom , el salari i el salari en pessetes (SalariPTS).
 
 ```mysql
-
+SELECT empleat_id, cognoms, nom, salari, salari * 166.386 AS SalariPTS
+	FROM empleats;
 ```
 
 ### **Exercici 13 - DML (CONSULTES)**
+Exercici 13 - Mostrar el cognom, nom i salari dels empleats que guanyen més de 12000.
 
 ```mysql
-
+SELECT cognoms, nom, salari
+	FROM empleats 
+WHERE salari >12000;
 ```
 ### **Exercici 14 - DML (CONSULTES)**
+Exercici 14 - Mostra tota la informació dels països ordenada per nom de país.
 
 ```mysql
-
+SELECT *
+	 FROM paisos
+ORDER BY nom;
 ```
 
 ### **Exercici 15 - DML (CONSULTES)**
+Exercici 15 - Mostrar el nom dels països amb codi de regió 2.
 
 ```mysql
+SELECT *
+	FROM paisos
+WHERE regio_id = 2;
+```
 
+### **Exercici 16 - DML (CONSULTES)**
+Exercici 16 - Volem saber el cognom, codi de departament i email de l’empleat 176.
+
+```mysql
+SELECT *
+	FROM empleats
+WHERE empleat_id = 176;
+```
+### **Exercici 17 - DML (CONSULTES)**
+Exercici 17 - Mostra totes les dades dels empleats contractats a partir del 1996.
+
+```mysql
+SELECT cognoms, email, departament_id
+	FROM empleats
+WHERE data_contractacio>='1996-01-01';alter
 ```
