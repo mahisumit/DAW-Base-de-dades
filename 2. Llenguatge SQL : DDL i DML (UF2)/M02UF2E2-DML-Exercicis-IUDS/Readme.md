@@ -133,7 +133,7 @@ Exercici 11 - Obtenir els diferents codis de departaments dels empleats, sense d
 ```mysql
 
 ```
-### **Exercici 12**
+### **Exercici 12 - DML (CONSULTES)**
 
 ```mysql
 
