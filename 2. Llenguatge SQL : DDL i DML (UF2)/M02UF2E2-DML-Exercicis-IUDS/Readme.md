@@ -2,8 +2,8 @@
 
 ## DML (INSERT, UPDATE, DELETE)
 
-### **Exercici 1**: 
-Afegeix a la BD un empleat anomenat Pere Pi que treballa com a
+### **Exercici 1**
+Exercici 1 - Afegeix a la BD un empleat anomenat Pere Pi que treballa com a
 programador amb un salari 7.000€.
 ```mysql
 INSERT INTO empleats (empleat_id, nom, cognoms, email, data_contractacio, feina_codi, salari)
