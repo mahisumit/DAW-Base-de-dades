@@ -5,6 +5,7 @@
 ### **Exercici 1 - DML (INSERT, UPDATE, DELETE)**
 Exercici 1 - Afegeix a la BD un empleat anomenat Pere Pi que treballa com a
 programador amb un salari 7.000€.
+
 ```mysql
 INSERT INTO empleats (empleat_id, nom, cognoms, email, data_contractacio, feina_codi, salari)
 VALUES ('208', 'Pere', 'Pi', 'perepi@empresa.cat', '1995-08-18', 'IT_PROG','7000');
@@ -42,6 +43,9 @@ VALUES 	('212', '1992-01-15', '1993-10-20', 'IT_PROG', '60'),
 ```
 
 ### **Exercici 4 - DML (INSERT, UPDATE, DELETE)**
+Exercici 4 - Afegeix els següents països: Espanya, França, Austràlia, Japó i Corea del
+Sud. Tenint en compte que els codis de país segueixen l'ISO internacional en el camp
+pais_id.
 
 ```mysql
 INSERT INTO paisos (pais_id, nom, regio_id)
@@ -53,6 +57,7 @@ VALUES	('ES', 'Espanya','1'),
 ```
 
 ### **Exercici 5 - DML (INSERT, UPDATE, DELETE)**
+Exercici 5 - Modifica l'adreça 460 Bloor St. W. de Toronto per l'adreça del teu centre.
 
 ```mysql
 UPDATE localitzacions
@@ -61,6 +66,10 @@ WHERE adreca = '460 Bloor St. W.' AND ciutat = 'Toronto';
 ```
 
 ### **Exercici 6 - DML (INSERT, UPDATE, DELETE)**
+Exercici 6 - Quines sentència o sentències utilitzaries per modificar tots els empleats
+que són presidents (President) passin a ser Vicepresidents d'administració
+(Administration Vice President) i al revés tots els Vicepresidents d'administració passin a
+ser presidents.
 
 ```mysql
 UPDATE empleats
@@ -79,6 +88,8 @@ DELETE FROM feines WHERE feina_codi = "TMP";
 ```
 
 ### **Exercici 7 - DML (INSERT, UPDATE, DELETE)**
+Exercici 7 - Quina sentència DML utilitzaries per esborrar tot l'historial de treball d'un
+empleat concret entre dues dates. Posa'n un exemple.
 
 ```mysql
 DELETE FROM historial_feines
@@ -92,12 +103,15 @@ DELETE FROM historial_feines
 ## DML (CONSULTES)
 
 ### **Exercici 8 - DML (CONSULTES)**
+Exercici 8 - Mostrar l’estructura de la taula empleats.
 
 ```mysql
 DESCRIBE empleats;
 ```
 
 ### **Exercici 9 - DML (CONSULTES)**
+Exercici 9 - Obtenir de tots els empleats, el nom, cognoms i salari. Mostrar només 4
+registres.
 
 ```mysql
 SELECT	nom,
@@ -107,12 +121,14 @@ SELECT	nom,
     LIMIT 4;
 ```
 ### **Exercici 10  - DML (CONSULTES)**
+Exercici 10 - Obtenir tots els treballs ( totes les columnes ).
 
 ```mysql
 SELECT * FROM feines;
 ```
 
 ### **Exercici 11 - DML (CONSULTES)**
+Exercici 11 - Obtenir els diferents codis de departaments dels empleats, sense duplicats.
 
 ```mysql
 
