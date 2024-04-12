@@ -90,8 +90,8 @@ DESCRIBE empleats;
 
 ```mysql
 SELECT	nom,
-		cognoms,
-    salari
+	cognoms,
+    	salari
 	FROM empleats
     LIMIT 4;
 ```
