@@ -3,7 +3,8 @@
 ## DML (INSERT, UPDATE, DELETE)
 
 **Exercici 1**
-
+Afegeix a la BD un empleat anomenat Pere Pi que treballa com a
+programador amb un salari 7.000€.
 ```mysql
 INSERT INTO empleats (empleat_id, nom, cognoms, email, data_contractacio, feina_codi, salari)
 VALUES ('208', 'Pere', 'Pi', 'perepi@empresa.cat', '1995-08-18', 'IT_PROG','7000');
