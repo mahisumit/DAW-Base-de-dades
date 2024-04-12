@@ -1,6 +1,6 @@
 # Activitat Subprogrames
 
-## Enunciat de Funcions 
+## Exeercicis Funcions 
 
 **Exercici 1**
 
@@ -70,7 +70,7 @@ DELIMITER ;
 
 ***
 
-## Enunciat de Procediments
+## Exercicis Procediments
 
 **Exercici 1**
 
