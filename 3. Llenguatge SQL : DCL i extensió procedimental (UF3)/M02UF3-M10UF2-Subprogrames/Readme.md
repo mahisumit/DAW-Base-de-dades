@@ -1,8 +1,7 @@
 # Activitat Subprogrames
 
-## Exeercicis Funcions 
-
-**Exercici 1**
+## Exercici 1 -  Funcions 
+Exercici 1 -
 
 ```mysql
 DELIMITER //
@@ -16,53 +15,64 @@ END //
 DELIMITER ;
 ```
 
-**Exercici 2**
+## Exercici 2 -  Funcions 
+Exercici 2 -  
 
 ```mysql
 
 ```
 
-**Exercici 3**
+## Exercici 3 -  Funcions 
+Exercici 3 - 
 
 ```mysql
 
 ```
 
-**Exercici 4**
+## Exercici 4 -  Funcions 
+Exercici 4 - 
 
 ```mysql
 
 ```
 
-**Exercici 5**
+## Exercici 5 -  Funcions 
+Exercici 5 - 
 
 ```mysql
 
 ```
 
-**Exercici 6**
+## Exercici 6 -  Funcions 
+Exercici 6 - 
 
 ```mysql
 
 ```
 
-**Exercici 7**
+## Exercici 7 -  Funcions 
+Exercici 7 - 
 
 ```mysql
 
 ```
 
-**Exercici 8**
+## Exercici 8 -  Funcions 
+Exercici 8 - 
 
 ```mysql
 
 ```
-**Exercici 9**
+
+## Exercici 9 -  Funcions 
+Exercici 9 - 
 
 ```mysql
 
 ```
-**Exercici 10**
+
+## Exercici 10 -  Funcions 
+Exercici 10 - 
 
 ```mysql
 
@@ -70,81 +80,99 @@ DELIMITER ;
 
 ***
 
-## Exercicis Procediments
+## Exercici 1 - Procediments
 
-**Exercici 1**
-
-```mysql
-
-```
-
-**Exercici 2**
+Exercici 1 - 
 
 ```mysql
 
 ```
 
-**Exercici 3**
+## Exercici 2 - Procediments
+Exercici 2 -
 
 ```mysql
 
 ```
 
-**Exercici 4**
+## Exercici 3 - Procediments
+Exercici 3 -
 
 ```mysql
 
 ```
 
-**Exercici 5**
+## Exercici 4 - Procediments
+Exercici 4 -
 
 ```mysql
 
 ```
 
-**Exercici 6**
+## Exercici 5 - Procediments
+Exercici 5 -
 
 ```mysql
 
 ```
 
-**Exercici 7**
+## Exercici 6 - Procediments
+Exercici 6 -
 
 ```mysql
 
 ```
 
-**Exercici 8**
+## Exercici 7 - Procediments
+Exercici 7 -
 
 ```mysql
 
 ```
-**Exercici 9**
+
+## Exercici 8 - Procediments
+Exercici 8 -
 
 ```mysql
 
 ```
-**Exercici 10**
+
+## Exercici 9 - Procediments
+Exercici 9 -
 
 ```mysql
 
 ```
-**Exercici 11**
+## Exercici 10 - Procediments
+Exercici 10 -
 
 ```mysql
 
 ```
-**Exercici 12**
+
+## Exercici 11 - Procediments
+Exercici 11 -
 
 ```mysql
 
 ```
-**Exercici 13**
+
+## Exercici 12 - Procediments
+Exercici 12 -
 
 ```mysql
 
 ```
-**Exercici 14**
+
+## Exercici 13 - Procediments
+Exercici 13 -
+
+```mysql
+
+```
+
+## Exercici 14 - Procediments
+Exercici 14 -
 
 ```mysql
 
