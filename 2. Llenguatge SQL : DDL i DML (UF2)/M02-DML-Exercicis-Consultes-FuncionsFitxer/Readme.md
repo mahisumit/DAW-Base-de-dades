@@ -1,34 +1,39 @@
 # DML (CONSULTES AMB FUNCIONS)
 
 ### **Exercici 1 - DML (CONSULTES AMB FUNCIONS)**
-Exercici 1 - 
+Exercici 1 - Escriu una consulta per mostrar la data actual. Anomena la columna com a“Data”.
 
 ```mysql
-
+SELECT CURRENT_DATE AS "Data";
 ```
 ### **Exercici 2 - DML (CONSULTES AMB FUNCIONS)**
-Exercici 2 - 
+Exercici 2 - Escriu una consulta per mostrar la data i hora actual. Anomena la columna com a “Data Hora”.
 
 ```mysql
-
+SELECT CURRENT_DATE, CURRENT_TIME AS "Data Hora";
+SELECT NOW() AS "Data Hora";
 ```
 ### **Exercici 3 - DML (CONSULTES AMB FUNCIONS)**
-Exercici 3 - 
+Exercici 3 - Mostra els cognoms i nom dels empleats concatenats amb una coma i un espai en blanc.
 
 ```mysql
-
+SELECT CONCAT (cognoms, ', ', nom)
+	FROM empleats;
 ```
 ### **Exercici 4 - DML (CONSULTES AMB FUNCIONS)**
-Exercici 4 - 
+Exercici 4 - Volem una columna on estigui tot en majúscules i l’altre tot en minúscules. Anomena les columnes com a “Nom en majúscules” i “Nom en minúscules” respectivament.
 
 ```mysql
-
+SELECT 	UPPER  (nom) AS 'NOM en majúscules',
+		LOWER  (nom) AS 'NOM en minúscules'
+FROM empleats;
 ```
 ### **Exercici 5 - DML (CONSULTES AMB FUNCIONS)**
-Exercici 5 - 
+Exercici 5 - Mostra les 6 primeres lletres dels cognoms dels empleats.
 
 ```mysql
-
+SELECT LEFT(cognoms,6)
+	FROM empleats;
 ```
 ### **Exercici 6 - DML (CONSULTES AMB FUNCIONS)**
 Exercici 6 - 
