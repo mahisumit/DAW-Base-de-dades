@@ -19,7 +19,22 @@ DELIMITER ;
 Exercici 2 -  
 
 ```mysql
-
+DELIMITER //
+DROP FUNCTION IF EXISTS sp_Potencia //
+CREATE FUNCTION sp_Potencia (b INT, e INT) RETURNS BIGINT DETERMINISTIC
+BEGIN
+    DECLARE v_potencia BIGINT;
+    IF b IS NOT NULL AND e IS NOT NULL THEN
+        SET v_potencia = 1;
+        WHILE e > 0 DO
+            SET v_potencia = v_potencia * b;
+            SET e = e - 1;
+        END WHILE;
+    END IF;
+  
+    RETURN v_potencia;
+END //
+DELIMITER ;
 ```
 
 ## Exercici 3 -  Funcions 
