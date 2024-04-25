@@ -57,7 +57,6 @@ BEGIN
         SET MESSAGE_TEXT = 'No s''ha trobat cap empleat amb aquest id_empleat.';
     END IF;
     
-    -- Calcula el nou salari amb l'increment
     SET salari_actual = salari_actual + (salari_actual * (increment_p / 100));
     
     UPDATE empleats
