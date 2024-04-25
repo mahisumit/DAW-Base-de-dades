@@ -1,7 +1,9 @@
 # Activitat Subprogrames
 
 ## Exercici 1 -  Funcions 
-Exercici 1 -
+Exercici 1 - - Fes una funció anomenada spData, tal que donada una data en format
+MySQL ( AAAA-MM-DD ) ens retorni una cadena de caràcters en format DD-MM-AAAA. <br>
+Exemple : SELECT spData('1988-12-01') => 01-12-1988
 
 ```mysql
 DELIMITER //
@@ -16,7 +18,9 @@ DELIMITER ;
 ```
 
 ## Exercici 2 -  Funcions 
-Exercici 2 -  
+Exercici 2 - Fes una funció anomenada spPotencia, tal que donada una base i un
+exponent, ens calculi la seva potència. Intenta no utilitzar la funció POW. <br>
+Exemple : SELECT spPotencia(2,3) => 8 
 
 ```mysql
 DELIMITER //
@@ -38,7 +42,10 @@ DELIMITER ;
 ```
 
 ## Exercici 3 -  Funcions 
-Exercici 3 - 
+Exercici 3 - - Fes una funció anomenada spIncrement que donat un codi d’empleat i un
+% de increment, ens calculi el salari sumant aquest percentatge. <br>
+Per exemple, suposem que l’ empleat amb id_empleat = 124 té un salari de 1000 <br>
+Exemple: SELECT spIncrement(124,10) obtindriem -> 1100
 
 ```mysql
 DELIMITER //
@@ -71,7 +78,8 @@ SELECT rrhh.sp_Increment(212, 20);
 ```
 
 ## Exercici 4 -  Funcions 
-Exercici 4 - 
+Exercici 4 - Fes una funció anomenada spPringat, tal que li passem un codi de
+departament, i ens torni el codi d’empleat que guanya menys d’aquell departament. 
 
 ```mysql
 DELIMITER //
@@ -94,7 +102,8 @@ SELECT rrhh.sp_Pringat(60);
 ```
 
 ## Exercici 5 -  Funcions 
-Exercici 5 - 
+Exercici 5 - Utilitzant la funció spPringat fes una consulta per obtenir de cada
+departament, l’empleat pringat. Mostra el codi i nom del departament, i el codi d’empleat.
 
 ```mysql
 SELECT d.departament_id,sp_Pringat(d.departament_id) AS codi_empleat_pringat
