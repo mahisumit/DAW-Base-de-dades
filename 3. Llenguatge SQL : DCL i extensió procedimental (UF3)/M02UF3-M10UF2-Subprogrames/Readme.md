@@ -111,35 +111,47 @@ FROM empleats d;
 ```
 
 ## Exercici 6 -  Funcions 
-Exercici 6 - 
+Exercici 6 - Fes una funció anomenada spCategoria, tal que donat un codi d’empleat,
+ens digui en quina categoria professional està. El criteri que volem seguir per determinar
+la categoria professional és en funció dels anys que porta treballant a l’empresa: <br>
+Entre 0 i 1 anys -> Auxiliar <br>
+Entre 2 i 10 anys -> Oficial de Segona <br>
+Entre 11 i 20 Anys -> Oficial de Primera <br>
+Més de 20 anys -> Que es jubili! <br>
+
 
 ```mysql
 
 ```
 
 ## Exercici 7 -  Funcions 
-Exercici 7 - 
+Exercici 7 - Fes una consulta utilitzant la funció anterior perquè mostri mostri de cada
+empleat, el codi d’empleat, el nom, els anys treballats i la categoria professional a la que
+pertany.
 
 ```mysql
 
 ```
 
 ## Exercici 8 -  Funcions 
-Exercici 8 - 
+Exercici 8 - Fes una funció anomenada spEdat, tal que donada una data per paràmetre
+ens retorni l'edat d'una persona. Les dates posteriors a la data d'avui han de retornar 0.
+
 
 ```mysql
 
 ```
 
 ## Exercici 9 -  Funcions 
-Exercici 9 - 
+Exercici 9 - Fes una funció que ens retorni el número de directors (caps) diferents tenim.
 
 ```mysql
 
 ```
 
 ## Exercici 10 -  Funcions 
-Exercici 10 - 
+Exercici 10 - Quina instrucció utilitzarem si volem veure el contingut de la funció
+spPringat?
 
 ```mysql
 
