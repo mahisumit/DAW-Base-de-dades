@@ -41,7 +41,32 @@ DELIMITER ;
 Exercici 3 - 
 
 ```mysql
-
+DELIMITER //
+CREATE FUNCTION sp_Increment(id_empleat INT, increment_p INT)
+RETURNS DECIMAL(10,2) DETERMINISTIC
+BEGIN
+    DECLARE salari_actual DECIMAL(10,2);
+    
+    SELECT salari INTO salari_actual
+    FROM empleats
+    WHERE id_empleat = id_empleat
+    LIMIT 1;
+    
+    IF salari_actual IS NULL THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'No s''ha trobat cap empleat amb aquest id_empleat.';
+    END IF;
+    
+    -- Calcula el nou salari amb l'increment
+    SET salari_actual = salari_actual + (salari_actual * (increment_p / 100));
+    
+    UPDATE empleats
+    SET salari = salari_actual
+    WHERE id_empleat = id_empleat;
+    
+    RETURN salari_actual;
+END//
+DELIMITER ;
 ```
 
 ## Exercici 4 -  Funcions 
