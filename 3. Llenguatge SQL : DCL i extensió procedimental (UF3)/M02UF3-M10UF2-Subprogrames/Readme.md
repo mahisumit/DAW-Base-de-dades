@@ -1,8 +1,7 @@
 # Activitat Subprogrames
 
 ## Exercici 1 -  Funcions 
-Exercici 1 - - Fes una funció anomenada spData, tal que donada una data en format
-MySQL ( AAAA-MM-DD ) ens retorni una cadena de caràcters en format DD-MM-AAAA. <br>
+Exercici 1 - - Fes una funció anomenada spData, tal que donada una data en format MySQL ( AAAA-MM-DD ) ens retorni una cadena de caràcters en format DD-MM-AAAA. <br>
 Exemple : SELECT spData('1988-12-01') => 01-12-1988
 
 ```mysql
@@ -18,8 +17,7 @@ DELIMITER ;
 ```
 
 ## Exercici 2 -  Funcions 
-Exercici 2 - Fes una funció anomenada spPotencia, tal que donada una base i un
-exponent, ens calculi la seva potència. Intenta no utilitzar la funció POW. <br>
+Exercici 2 - Fes una funció anomenada spPotencia, tal que donada una base i un exponent, ens calculi la seva potència. Intenta no utilitzar la funció POW. <br>
 Exemple : SELECT spPotencia(2,3) => 8 
 
 ```mysql
@@ -42,8 +40,7 @@ DELIMITER ;
 ```
 
 ## Exercici 3 -  Funcions 
-Exercici 3 - - Fes una funció anomenada spIncrement que donat un codi d’empleat i un
-% de increment, ens calculi el salari sumant aquest percentatge. <br>
+Exercici 3 - - Fes una funció anomenada spIncrement que donat un codi d’empleat i un % de increment, ens calculi el salari sumant aquest percentatge. <br>
 Per exemple, suposem que l’ empleat amb id_empleat = 124 té un salari de 1000 <br>
 Exemple: SELECT spIncrement(124,10) obtindriem -> 1100
 
@@ -78,8 +75,7 @@ SELECT rrhh.sp_Increment(212, 20);
 ```
 
 ## Exercici 4 -  Funcions 
-Exercici 4 - Fes una funció anomenada spPringat, tal que li passem un codi de
-departament, i ens torni el codi d’empleat que guanya menys d’aquell departament. 
+Exercici 4 - Fes una funció anomenada spPringat, tal que li passem un codi de departament, i ens torni el codi d’empleat que guanya menys d’aquell departament. 
 
 ```mysql
 DELIMITER //
@@ -102,8 +98,7 @@ SELECT rrhh.sp_Pringat(60);
 ```
 
 ## Exercici 5 -  Funcions 
-Exercici 5 - Utilitzant la funció spPringat fes una consulta per obtenir de cada
-departament, l’empleat pringat. Mostra el codi i nom del departament, i el codi d’empleat.
+Exercici 5 - Utilitzant la funció spPringat fes una consulta per obtenir de cada departament, l’empleat pringat. Mostra el codi i nom del departament, i el codi d’empleat.
 
 ```mysql
 SELECT d.departament_id,sp_Pringat(d.departament_id) AS codi_empleat_pringat
@@ -111,9 +106,7 @@ FROM empleats d;
 ```
 
 ## Exercici 6 -  Funcions 
-Exercici 6 - Fes una funció anomenada spCategoria, tal que donat un codi d’empleat,
-ens digui en quina categoria professional està. El criteri que volem seguir per determinar
-la categoria professional és en funció dels anys que porta treballant a l’empresa: <br>
+Exercici 6 - Fes una funció anomenada spCategoria, tal que donat un codi d’empleat, ens digui en quina categoria professional està. El criteri que volem seguir per determinar la categoria professional és en funció dels anys que porta treballant a l’empresa: <br>
 Entre 0 i 1 anys -> Auxiliar <br>
 Entre 2 i 10 anys -> Oficial de Segona <br>
 Entre 11 i 20 Anys -> Oficial de Primera <br>
@@ -125,18 +118,14 @@ Més de 20 anys -> Que es jubili! <br>
 ```
 
 ## Exercici 7 -  Funcions 
-Exercici 7 - Fes una consulta utilitzant la funció anterior perquè mostri mostri de cada
-empleat, el codi d’empleat, el nom, els anys treballats i la categoria professional a la que
-pertany.
+Exercici 7 - Fes una consulta utilitzant la funció anterior perquè mostri mostri de cada empleat, el codi d’empleat, el nom, els anys treballats i la categoria professional a la que pertany.
 
 ```mysql
 
 ```
 
 ## Exercici 8 -  Funcions 
-Exercici 8 - Fes una funció anomenada spEdat, tal que donada una data per paràmetre
-ens retorni l'edat d'una persona. Les dates posteriors a la data d'avui han de retornar 0.
-
+Exercici 8 - Fes una funció anomenada spEdat, tal que donada una data per paràmetre ens retorni l'edat d'una persona. Les dates posteriors a la data d'avui han de retornar 0.
 
 ```mysql
 
@@ -150,8 +139,7 @@ Exercici 9 - Fes una funció que ens retorni el número de directors (caps) dife
 ```
 
 ## Exercici 10 -  Funcions 
-Exercici 10 - Quina instrucció utilitzarem si volem veure el contingut de la funció
-spPringat?
+Exercici 10 - Quina instrucció utilitzarem si volem veure el contingut de la funció spPringat?
 
 ```mysql
 
@@ -161,97 +149,111 @@ spPringat?
 
 ## Exercici 1 - Procediments
 
-Exercici 1 - 
+Exercici 1 - Fes un procediment que permeti obtenir la data i hora del sistema i l’usuari actual. 
 
 ```mysql
 
 ```
 
 ## Exercici 2 - Procediments
-Exercici 2 -
+Exercici 2 - Fes un procediment que intercanvii el sou de dos empleats passats per paràmetre.
 
 ```mysql
 
 ```
 
 ## Exercici 3 - Procediments
-Exercici 3 -
+Exercici 3 - Fes un procediment que donat dos Ids d'empleat assigni el codi de departament del primer en el segon.
 
 ```mysql
 
 ```
 
 ## Exercici 4 - Procediments
-Exercici 4 -
+Exercici 4 - Fes un procediment que donat dos codis de departament assigni tots els empleats del segon en el primer. Un cop executat el procediment el departament que correspont en el segon paràmetre ha de quedar desert/sense cap empleat.
 
 ```mysql
 
 ```
 
 ## Exercici 5 - Procediments
-Exercici 5 -
+Exercici 5 - Fes un procediment per mostrar un llistat dels empleats. Volem veure el id_empleat, nom_empleat, nom_departament i el nom de la localització del departament.
 
 ```mysql
 
 ```
 
 ## Exercici 6 - Procediments
-Exercici 6 -
+Exercici 6 - Fes un procediment que donat un codi d’empleat, ens doni la informació de l’empleat ( agafa la informació que creguis rellevant).
 
 ```mysql
 
 ```
 
 ## Exercici 7 - Procediments
-Exercici 7 -
+Exercici 7 - Volem fer un registre dels usuaris que entren al nostre sistema. Per fer-ho primer caldrà crear una taula amb dos camps, un per guardar l’usuari i l’altre per guardar la data i hora de l’accés. 
 
 ```mysql
 
 ```
 
 ## Exercici 8 - Procediments
-Exercici 8 -
+Exercici 8 - A continuació feu un procediment sense arguments, de manera que cada vegada que el crideu, insereixi en aquesta taula l’usuari actual i la data i hora en que s’ha executat el procediment.
 
 ```mysql
 
 ```
 
 ## Exercici 9 - Procediments
-Exercici 9 -
+Exercici 9 - Fes un procediment que ens permeti afegir un nou departament però amb la següent particularitat: En cas que la localització no existeixi a la taula localitzacions, ens posarà un NULL en el camp id_localtizacio de la taula departaments. Al procediment li hem de passar el codi de departament, el nom del departament i el codi de la localització.
 
 ```mysql
 
 ```
 ## Exercici 10 - Procediments
-Exercici 10 -
+Exercici 10 - Fes un procediment que donat un codi d’empleat, ens posi en paràmetres de sortida el nom i el cognom. Indica com ho pots fer per comprovar si el procediment et funciona.
 
 ```mysql
 
 ```
 
 ## Exercici 11 - Procediments
-Exercici 11 -
+Exercici 11 - Fes un procediment que ens permeti modificar el nom i cognom d’un empleat. 
 
 ```mysql
 
 ```
 
 ## Exercici 12 - Procediments
-Exercici 12 -
+Exercici 12 - Crea una taula d’auditoria anomenada logs_usuaris. Aquesta taula la utilitzarem per monitoritzar algunes de les accions que fan els usuaris sobre les dades,per exemple si actualitzen dades, eliminen registres.
+La taula ha de tenir els següents camps:
+
+| Nom | Tipus | Descripció |
+| --- | --- | --- |
+| usuari | VARCHAR(100)  | Usuari que ha realitzat l’acció |
+| data   | DATETIME      | Data-Hora en que s’ha realitzat l’acció |
+| taula  | VARCHAR(50)   | Taula sobre la que es realitza l’acció |
+| accio  | VARCHAR(20)   | “ELIMINAR”,”AFEGIR”,”MODIFICAR”,”INSERIR” |
+| valor_pk | VARCHAR(200) | valor que identifica el registre que ha patit l’acció |
+
+Fes un procediment amb nom spRegistrarLog que rebrà com a paràmetres el nom de la taula, l’acció i el valor_pk.
+Aquest procediment només cal que insereixi un registre en la taula logs_usuaris amb les dades rebudes, tenint en compte l’usuari actual i la data-hora del sistema.
 
 ```mysql
 
 ```
 
 ## Exercici 13 - Procediments
-Exercici 13 -
+Exercici 13 - Fes un procediment que ens permeti eliminar un departament determinat. El departament s’ha d’eliminar de la taula departaments. Utilitza a més dins d’aquest procediment, el procediment creat anteriorment (spRegistrarLog) per guardar també un registre del que ha realitzat l’usuari. Ens ha de quedar clar que l’usuari actual, en data X ha eliminat de la taula DEPARTAMENTS el codi departament Y. <br>
+Per exemple, si fem una crida al procediment per eliminar un departament:<br>
+CALL eliminarDept(300);
 
 ```mysql
 
 ```
 
 ## Exercici 14 - Procediments
-Exercici 14 -
+Exercici 14 - Fes un procediment que ens posi en paràmetres de sortida, el número d’empleats que tenim, el número de departaments i el número de localitzacions.
 
 ```mysql
 
