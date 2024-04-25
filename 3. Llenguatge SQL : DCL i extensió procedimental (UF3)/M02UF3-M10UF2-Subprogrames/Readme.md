@@ -14,6 +14,7 @@ BEGIN
     RETURN v_dataFinal;
 END //
 DELIMITER ;
+SELECT rrhh.sp_Data('1988-12-01');
 ```
 
 ## Exercici 2 -  Funcions 
@@ -37,6 +38,7 @@ BEGIN
     RETURN v_potencia;
 END //
 DELIMITER ;
+SELECT sp_Potencia(2, 3);
 ```
 
 ## Exercici 3 -  Funcions 
