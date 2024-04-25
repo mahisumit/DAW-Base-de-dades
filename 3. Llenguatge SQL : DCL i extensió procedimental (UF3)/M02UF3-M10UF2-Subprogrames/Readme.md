@@ -74,14 +74,31 @@ SELECT rrhh.sp_Increment(212, 20);
 Exercici 4 - 
 
 ```mysql
-
+DELIMITER //
+CREATE FUNCTION sp_Pringat(codi_d INT)
+RETURNS INT
+NOT DETERMINISTIC READS SQL DATA
+BEGIN
+    DECLARE empleat_menys_pagat INT;
+    
+    SELECT empleat_id INTO empleat_menys_pagat
+    FROM empleats
+    WHERE codi_d = codi_d
+    ORDER BY salari ASC
+    LIMIT 1;
+    
+    RETURN empleat_menys_pagat;
+END//
+DELIMITER ;
+SELECT rrhh.sp_Pringat(60);
 ```
 
 ## Exercici 5 -  Funcions 
 Exercici 5 - 
 
 ```mysql
-
+SELECT d.departament_id,sp_Pringat(d.departament_id) AS codi_empleat_pringat
+FROM empleats d;
 ```
 
 ## Exercici 6 -  Funcions 
