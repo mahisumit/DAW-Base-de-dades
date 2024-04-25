@@ -66,6 +66,8 @@ BEGIN
     RETURN salari_actual;
 END//
 DELIMITER ;
+SELECT rrhh.sp_Increment(212, 20);
+
 ```
 
 ## Exercici 4 -  Funcions 
