@@ -1,4 +1,14 @@
-## Exercici 0 MongoDB ##
+# Exercici 0 – Importació de la BD #
+
+Importa els fitxers .json per la BD de rrhh:
+(https://github.com/robertventura/databases/blob/master/mongodb/rrhh/)
+Passos:
+• Crea la BD rrhh
+• Importa el fitxer departaments.json → col·lecció departaments
+• Importa el fitxer empleats.json → col·lecció empleats
+
+## Exercicis CONSULTA ##
+
 1. Obtenir de tots els empleats, el nom, cognoms i salari. Mostrar només 4 registres.
 ```js
 db.empleats.find({}, {nom: 1, cognoms: 1, salari: 1, _id: 0}).limit(4)
