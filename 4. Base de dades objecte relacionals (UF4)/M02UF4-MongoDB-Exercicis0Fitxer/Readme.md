@@ -73,3 +73,44 @@ db.empleats.find({$and: [{pct_comissio: {$exists:true}}, {$or: [{"feina.codi": "
 ```js
 db.empleats.find({historial_feines: {$size:2}},{})
 ```
+## Exercicis INSERT / UPDATE / DELETE ##
+
+1. Afegeix-te com empleat del departament d’Administració. Com a historial feines has treballat del 01/01/2000 al 31/12/2000 de “Contable” (AC_ACCOUNT) i del
+01/01/2001 al 31/12/2002 com a “Ajudant de direcció”( AD_ASST).
+Inventa’t les dades que creguis convenients.
+```js
+
+```
+
+2. Afegeix un Departament anomenat “Control de Qualitat amb codi” 120. Aquest Departament té la mateixa localització que el departament de Recursos Humans (190).
+```js
+
+```
+
+3. Modifica l’empelat anterior per tal de que treballi en el departament de “Control de Qualitat” (120).
+```js
+
+```
+
+4. 4. Afegeix un historial_feines per l'empleat amb codi empleat_id = 100. Amb el
+següents valors: <br>
+{<br>
+  "data inici": 01/01/2010,<br>
+  "data fi" :05/05/2010,<br>
+  "feina" : {<br>
+    "codi" : "SA MAN",<br>
+    "nom" : "Cap logística"<br>
+}<br>
+  "departament" : {<br>
+  "codi" :90,<br>
+  "nom" : "Direcció"<br>
+  }<br>
+}<br>
+```js
+
+```
+
+5 .Esborra tots els empleats que siguin del departament amb codi 10.
+```js
+
+```
