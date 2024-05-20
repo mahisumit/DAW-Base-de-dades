@@ -95,16 +95,16 @@ Inventa’t les dades que creguis convenients.
 4. 4. Afegeix un historial_feines per l'empleat amb codi empleat_id = 100. Amb el
 següents valors: <br>
 {<br>
-  "data inici": 01/01/2010,<br>
-  "data fi" :05/05/2010,<br>
-  "feina" : {<br>
-    "codi" : "SA MAN",<br>
-    "nom" : "Cap logística"<br>
+  &nbsp;&nbsp;&nbsp;"data inici": 01/01/2010,<br>
+  &nbsp;&nbsp;&nbsp;"data fi" :05/05/2010,<br>
+  &nbsp;&nbsp;&nbsp;"feina" : {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"codi" : "SA MAN",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"nom" : "Cap logística"<br>
 }<br>
-  "departament" : {<br>
-  "codi" :90,<br>
-  "nom" : "Direcció"<br>
-  }<br>
+  &nbsp;&nbsp;&nbsp;"departament" : {<br>
+  &nbsp;&nbsp;&nbsp;"codi" :90,<br>
+  &nbsp;&nbsp;&nbsp;"nom" : "Direcció"<br>
+ &nbsp;&nbsp; }<br>
 }<br>
 ```js
 
