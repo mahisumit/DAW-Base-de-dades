@@ -1,10 +1,10 @@
 # Exercici 0 – Importació de la BD #
 
 Importa els fitxers .json per la BD de rrhh:
-(https://github.com/robertventura/databases/blob/master/mongodb/rrhh/)
-Passos:
-• Crea la BD rrhh
-• Importa el fitxer departaments.json → col·lecció departaments
+(https://github.com/robertventura/databases/blob/master/mongodb/rrhh/). <br>
+Passos: <br>
+• Crea la BD [rrhh]() <br>
+• Importa el fitxer departaments.json → col·lecció departaments <br>
 • Importa el fitxer empleats.json → col·lecció empleats
 
 ## Exercicis CONSULTA ##
