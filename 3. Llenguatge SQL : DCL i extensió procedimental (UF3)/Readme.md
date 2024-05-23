@@ -19,8 +19,12 @@ GRANT SELECT, INSERT ON Employees TO User1;
 REVOKE INSERT ON Employees FROM User1;
 ```
 
+***
+
 ## Extensió procedimental en SQL:
 A més de les comandes bàsiques d'SQL, molts sistemes de bases de dades ofereixen extensions procedimentals que permeten escriure codi més complex per gestionar la lògica de la base de dades. Això inclou la capacitat de definir funcions, procediments emmagatzemats, i desencadenadors (triggers).
+
+***
 
 ### Elements principals de les extensions procedimentals:
 
@@ -71,6 +75,8 @@ OPEN cursor1;
 FETCH cursor1 INTO @EmployeeID, @FirstName, @LastName;
 CLOSE cursor1;
 ```
+
+***
 
 ## Exemples concrets:
 
