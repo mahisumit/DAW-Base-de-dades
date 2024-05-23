@@ -9,13 +9,12 @@
 ***
 
 ## 1. Introducció a les base de dades (UF1)
-  Què és una base de dades? <br>
-  Una base de dades és un sistema que permet organitzar, emmagatzemar i recuperar dades de manera eficient. És com una col·lecció de taules amb files i columnes, on cada taula representa una categoria específica d’informació en un projecte. <br>
+Una base de dades és un sistema que permet organitzar, emmagatzemar i recuperar dades de manera eficient. És com una col·lecció de taules amb files i columnes, on cada taula representa una categoria específica d’informació en un projecte. <br>
 
 ***
 
 ## 2. Llenguatge SQL DDL i DML (UF2)
-
+El llenguatge SQL (Structured Query Language) és un llenguatge estàndard utilitzat per gestionar i manipular bases de dades relacionals. SQL es divideix principalment en dos tipus de llenguatge: DDL (Data Definition Language) i DML (Data Manipulation Language).
 ***
 
 ## 3. Llenguatge SQL: DCL i extensió procedimental (UF3)
