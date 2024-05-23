@@ -22,3 +22,5 @@ A més del llenguatge de definició de dades (DDL) i el llenguatge de manipulaci
 ***
 
 ## 4. Base de dades objecte relacionals (UF4)
+### MongoDB:
+MongoDB és una base de dades NoSQL orientada a documents que ofereix una gran flexibilitat i escalabilitat per gestionar grans volums de dades i diferents tipus de dades no estructurades o semiestructurades. Utilitza documents JSON-like (BSON) per emmagatzemar dades, proporcionant una estructura dinàmica que permet una fàcil i ràpida adaptació a les necessitats canviants de les aplicacions modernes.
