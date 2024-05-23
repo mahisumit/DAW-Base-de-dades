@@ -74,3 +74,45 @@ WHERE Position = 'Manager';
 
 ***
 
+### Exemples concrets:
+
+####Crear una taula (DDL):
+```sql
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY,
+    ProductName VARCHAR(100),
+    Price DECIMAL(10, 2),
+    Stock INT
+);
+```
+
+Afegir una columna (DDL):
+```sql
+ALTER TABLE Products ADD Category VARCHAR(50);
+```
+
+Inserir dades (DML):
+```sql
+INSERT INTO Products (ProductID, ProductName, Price, Stock, Category)
+VALUES (1, 'Laptop', 999.99, 50, 'Electronics');
+```
+
+Actualitzar dades (DML):
+```sql
+UPDATE Products
+SET Stock = 45
+WHERE ProductID = 1;
+```
+
+Eliminar dades (DML):
+```sql
+DELETE FROM Products
+WHERE ProductID = 1;
+```
+
+Consultar dades (DML):
+```sql
+SELECT ProductName, Price
+FROM Products
+WHERE Category = 'Electronics';
+```
