@@ -2,8 +2,7 @@
 
 ***
 
-## Introducció
+## Data Control Language (DCL)
 
-  En aquesta UF vaig treballar amb Llenguatge SQL (DCL).
 
 ***
