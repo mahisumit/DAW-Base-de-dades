@@ -18,7 +18,7 @@ El llenguatge SQL (Structured Query Language) és un llenguatge estàndard utili
 ***
 
 ## 3. Llenguatge SQL: DCL i extensió procedimental (UF3)
-
+A més del llenguatge de definició de dades (DDL) i el llenguatge de manipulació de dades (DML), SQL també inclou el llenguatge de control de dades (DCL) i extensions procedimentals. 
 ***
 
 ## 4. Base de dades objecte relacionals (UF4)
