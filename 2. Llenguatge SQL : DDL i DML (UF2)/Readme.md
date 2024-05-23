@@ -59,13 +59,13 @@ SET Position = 'Senior Manager'
 WHERE EmployeeID = 1;
 ```
 
-DELETE: Elimina files d'una taula.
+* DELETE: Elimina files d'una taula.
 ```sql
 DELETE FROM Employees
 WHERE EmployeeID = 1;
 ```
 
-SELECT: Consulta dades d'una o més taules.
+* SELECT: Consulta dades d'una o més taules.
 ```sql
 SELECT FirstName, LastName, Position
 FROM Employees
@@ -76,7 +76,7 @@ WHERE Position = 'Manager';
 
 ### Exemples concrets:
 
-#### Crear una taula (DDL):
+* Crear una taula (DDL):
 ```sql
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY,
@@ -86,31 +86,31 @@ CREATE TABLE Products (
 );
 ```
 
-Afegir una columna (DDL):
+* Afegir una columna (DDL):
 ```sql
 ALTER TABLE Products ADD Category VARCHAR(50);
 ```
 
-Inserir dades (DML):
+* Inserir dades (DML):
 ```sql
 INSERT INTO Products (ProductID, ProductName, Price, Stock, Category)
 VALUES (1, 'Laptop', 999.99, 50, 'Electronics');
 ```
 
-Actualitzar dades (DML):
+* Actualitzar dades (DML):
 ```sql
 UPDATE Products
 SET Stock = 45
 WHERE ProductID = 1;
 ```
 
-Eliminar dades (DML):
+* Eliminar dades (DML):
 ```sql
 DELETE FROM Products
 WHERE ProductID = 1;
 ```
 
-Consultar dades (DML):
+* Consultar dades (DML):
 ```sql
 SELECT ProductName, Price
 FROM Products
