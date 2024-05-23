@@ -76,7 +76,7 @@ WHERE Position = 'Manager';
 
 ### Exemples concrets:
 
-####Crear una taula (DDL):
+#### Crear una taula (DDL):
 ```sql
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY,
