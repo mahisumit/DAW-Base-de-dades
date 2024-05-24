@@ -117,7 +117,8 @@ END;
 ```
 
 * Crear un trigger (Extensió procedimental)
-```sqlCREATE TRIGGER UpdateProductLog
+```sql
+CREATE TRIGGER UpdateProductLog
 AFTER UPDATE ON Products
 FOR EACH ROW
 BEGIN
