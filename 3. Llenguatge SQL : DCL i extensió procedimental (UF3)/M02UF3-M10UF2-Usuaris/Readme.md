@@ -1,4 +1,4 @@
-# Crear Usuaris i Premisos
+# Crear Usuaris i Premisos.
 
 1. Crear l'ususari 1.
 ```sql
