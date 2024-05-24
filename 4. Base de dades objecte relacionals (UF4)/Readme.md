@@ -1,5 +1,5 @@
 # MongoDB
-
+![LogoMongoDB](https://github.com/mahisumit/DAW-BaseDeDades/blob/main/4.%20Base%20de%20dades%20objecte%20relacionals%20(UF4)/assests/MongoDB_Logo.png)
 ***
 
 ## Característiques clau de MongoDB:
