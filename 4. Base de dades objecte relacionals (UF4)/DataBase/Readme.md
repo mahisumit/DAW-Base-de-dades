@@ -1,1 +1,1 @@
-Base de dades rrhh.
+#Base de dades.
