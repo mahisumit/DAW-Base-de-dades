@@ -1,1 +1,1 @@
-#Base de dades.
+# Base de dades i .json.
