@@ -1,8 +1,8 @@
 # Exercici 1 - Consultes amb funcions
 
-Base de dades [edx – col·lecció students](https://github.com/mahisumit/DAW-BaseDeDades/blob/main/4.%20Base%20de%20dades%20objecte%20relacionals%20(UF4)/DataBase/edx.zip)
+Base de dades [edx – col·lecció students](https://github.com/mahisumit/DAW-BaseDeDades/blob/main/4.%20Base%20de%20dades%20objecte%20relacionals%20(UF4)/DataBase/edx.zip).
 
-## Base de dades edx – col·lecció students
+## Base de dades edx – col·lecció students:
 
 1. Busca els estudiants de gènere masculí.
    ```js
@@ -100,7 +100,7 @@ Base de dades [edx – col·lecció students](https://github.com/mahisumit/DAW-B
 
 ***
 
-## Base de dades edx – col·lecció bios
+## Base de dades edx – col·lecció bios:
 
 24. Busca aquells desenvolupadors que han realitzat contribucions en OOP.
     ```js
@@ -133,8 +133,8 @@ Base de dades [edx – col·lecció students](https://github.com/mahisumit/DAW-B
 
 ***
 
-Base de dades [imdb – col·lecció people]()
-## Base de dades imdb – col·lecció people
+Base de dades [imdb – col·lecció people](https://github.com/mahisumit/DAW-BaseDeDades/blob/main/4.%20Base%20de%20dades%20objecte%20relacionals%20(UF4)/DataBase/imdb.zip).
+## Base de dades imdb – col·lecció people:
 31. Buscar les persones que només han actuat. No han dirigit.
     ```js
     db.people.find({hasActed:true,hasDirected:{$exists:false}})
@@ -158,7 +158,7 @@ Base de dades [imdb – col·lecció people]()
 
 ***
 
-## Base de dades edx – col·lecció books
+## Base de dades edx – col·lecció books:
 36. Buscar aquells llibres que han estat escrits per Martin Fowloer i Kent Beck.
     ```js
     db.books.find({author:{$all:["Martin Fowloer","Kent Beck"]}})
