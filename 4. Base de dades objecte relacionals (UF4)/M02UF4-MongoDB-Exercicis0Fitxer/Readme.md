@@ -72,7 +72,7 @@ db.empleats.find({$and: [{pct_comissio: {$exists:true}}, {$or: [{"feina.codi": "
 ```js
 db.empleats.find({historial_feines: {$size:2}},{})
 ```
-## Exercicis INSERT / UPDATE / DELETE ##
+<!-- ## Exercicis INSERT / UPDATE / DELETE ##
 
 1. Afegeix-te com empleat del departament d’Administració. Com a historial feines has treballat del 01/01/2000 al 31/12/2000 de “Contable” (AC_ACCOUNT) i del
 01/01/2001 al 31/12/2002 com a “Ajudant de direcció”( AD_ASST).
@@ -113,3 +113,4 @@ següents valors: <br>
 ```js
 
 ```
+-->
