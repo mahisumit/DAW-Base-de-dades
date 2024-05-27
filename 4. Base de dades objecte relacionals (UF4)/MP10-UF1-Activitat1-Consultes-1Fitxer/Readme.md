@@ -98,6 +98,7 @@ Base de dades [edx – col·lecció students](https://github.com/mahisumit/DAW-B
     db.students.find({name:/[aeiouáàèéíìòóú]{3,}/i})
     ```
 
+***
 
 ## Base de dades edx – col·lecció bios
 
@@ -130,7 +131,9 @@ Base de dades [edx – col·lecció students](https://github.com/mahisumit/DAW-B
     db.bios.find({awards:{$size:3}})
     ```
 
+***
 
+Base de dades [imdb – col·lecció people]()
 ## Base de dades imdb – col·lecció people
 31. Buscar les persones que només han actuat. No han dirigit.
     ```js
@@ -153,6 +156,7 @@ Base de dades [edx – col·lecció students](https://github.com/mahisumit/DAW-B
     db.movies.find({actors:{$elemMatch:{name:"Penelope Cruz"}}})
     ```
 
+***
 
 ## Base de dades edx – col·lecció books
 36. Buscar aquells llibres que han estat escrits per Martin Fowloer i Kent Beck.
