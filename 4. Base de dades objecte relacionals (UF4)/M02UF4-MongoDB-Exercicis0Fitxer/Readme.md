@@ -76,20 +76,20 @@ Passos: <br>
 
 1. Afegeix-te com empleat del departament d’Administració. Com a historial feines has treballat del 01/01/2000 al 31/12/2000 de “Contable” (AC_ACCOUNT) i del
 01/01/2001 al 31/12/2002 com a “Ajudant de direcció”( AD_ASST).
-Inventa’t les dades que creguis convenients.
-```js
+I nventa’t les dades que creguis convenients.
+  ```js
 
-```
+  ```
 
 2. Afegeix un Departament anomenat “Control de Qualitat amb codi” 120. Aquest Departament té la mateixa localització que el departament de Recursos Humans (190).
-```js
+  ```js
 
-```
+  ```
 
 3. Modifica l’empelat anterior per tal de que treballi en el departament de “Control de Qualitat” (120).
-```js
+  ```js
 
-```
+  ```
 
 4. 4. Afegeix un historial_feines per l'empleat amb codi empleat_id = 100. Amb el
 següents valors: <br>
@@ -105,9 +105,9 @@ següents valors: <br>
   &nbsp;&nbsp;&nbsp;"nom" : "Direcció"<br>
  &nbsp;&nbsp; }<br>
 }<br>
-```js
+  ```js
 
-```
+  ```
 
 5 .Esborra tots els empleats que siguin del departament amb codi 10.
 ```js
